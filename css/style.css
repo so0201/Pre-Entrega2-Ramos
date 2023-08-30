@@ -2,8 +2,7 @@ body {
     background-image: url(../img/fondo.webp);
     background-repeat: repeat-y;
     background-size: cover;
-    /* max-width: 100%;
-    overflow-x: hidden; */
+    max-width: 100%;
 }
 header {
     background-color: rgb(255, 242, 225);
@@ -56,4 +55,20 @@ header {
 }
 .row {
     width: 100%;
+}
+.divQuienesSomos {
+    background-color: rgb(255, 242, 225);
+}
+.h2DivQuienes {
+    margin-top: 7%;
+    margin-left: 5%;
+    padding: 0%;
+    font-size: 7dvh;
+}
+.pDiv {
+    margin-bottom: 2%;
+    margin-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 3dvh;
 }
