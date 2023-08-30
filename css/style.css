@@ -1,4 +1,6 @@
 body {
+    margin: 0%;
+    padding: 0%;
     background-image: url(../img/fondo.webp);
     background-repeat: repeat-y;
     background-size: cover;
@@ -20,7 +22,7 @@ header {
 .Textos {
     background-color: bisque;
 }
-.h1Main {
+.h2Main {
     margin-top: 7%;
     margin-left: 5%;
     padding: 0%;
@@ -71,4 +73,22 @@ header {
     padding-top: 1%;
     padding-bottom: 1%;
     font-size: 3dvh;
+}
+.h2Servicios {
+    background-color: rgb(255, 242, 225);
+}
+.h2Titulo {
+    text-align: center;
+    padding-left: 5%;
+    padding-top: 10%;
+    padding-bottom: 1%;
+    font-size: 3dvh;
+}
+.card-body {
+    background-color: rgb(255, 242, 225);
+}
+.card {
+    max-width: 30%;
+    align-items: center;
+    margin-left: 7%;
 }
