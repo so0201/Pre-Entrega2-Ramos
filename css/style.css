@@ -1,4 +1,18 @@
 body {
-    margin: 0px;
-    padding: 0px;
+    background-image: url(../img/fondo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    background-color: rgb(255, 242, 225);
+    color: black;
+    border-top: 3px solid rgba(255, 228, 196, 0);
+    border-left: 3px solid rgba(255, 228, 196, 0);
+    border-right: 3px solid rgba(255, 228, 196, 0);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.navbar {
+    background-color: rgb(255, 242, 225);
+    text-align: justify;
 }
