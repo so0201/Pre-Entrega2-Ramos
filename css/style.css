@@ -1,7 +1,9 @@
 body {
     background-image: url(../img/fondo.webp);
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 header {
     background-color: rgb(255, 242, 225);
@@ -9,10 +11,46 @@ header {
     border-top: 3px solid rgba(255, 228, 196, 0);
     border-left: 3px solid rgba(255, 228, 196, 0);
     border-right: 3px solid rgba(255, 228, 196, 0);
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .navbar {
     background-color: rgb(255, 242, 225);
     text-align: justify;
+}
+.Textos {
+    background-color: bisque;
+}
+.h1Main {
+    margin-top: 7%;
+    margin-left: 5%;
+    padding: 0%;
+    font-size: 7dvh;
+}
+.pMain {
+    margin-bottom: 1%;
+    margin-left: 5%;
+    padding-top: 1%;
+    font-size: 3dvh;
+}
+.botonMain{
+    margin-left: 5%;
+    margin-bottom: 7%;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 150%;
+}
+.botonMain:hover {
+    background-color: rgb(106, 186, 255);
+    border-color: #333;
+}
+.imagenCafe {
+    margin-left: 1%;
+    margin-right: 5%;
+    padding: 0%;
 }
