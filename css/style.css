@@ -2,8 +2,8 @@ body {
     background-image: url(../img/fondo.webp);
     background-repeat: repeat-y;
     background-size: cover;
-    max-width: 100%;
-    overflow-x: hidden;
+    /* max-width: 100%;
+    overflow-x: hidden; */
 }
 header {
     background-color: rgb(255, 242, 225);
@@ -53,4 +53,7 @@ header {
     margin-left: 1%;
     margin-right: 5%;
     padding: 0%;
+}
+.row {
+    width: 100%;
 }

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Astron</title>
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -17,12 +17,12 @@
     <header>
         <div class="row align-items-center">
             <div class="col">
-                <h1 class="">Astron</h1>
+                <h1 class="mx-5 my-2">Astron</h1>
             </div>
             <div class="col-auto">
-                <a class="" href="https://www.instagram.com/pato._r/"><img src="img/ig.png" alt="ig" width="40px"
-                        height="40px"></a>
-                <a class="" href="https://twitter.com/s0yunQues0"><img src="img/twt.png" alt="ig" width="45px"
+                <a class="mx-0 my-2" href="https://www.instagram.com/pato._r/"><img src="img/ig.png" alt="ig"
+                        width="40px" height="40px"></a>
+                <a class="mx-3 my-2" href="https://twitter.com/s0yunQues0"><img src="img/twt.png" alt="ig" width="45px"
                         height="45px"></a>
             </div>
         </div>
@@ -42,13 +42,13 @@
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About us</a>
+                        <a class="nav-link" href="#">Sobre Nosotros</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Location</a>
+                        <a class="nav-link" href="#">Ubicacion</a>
                     </li>
                 </ul>
             </div>
@@ -57,12 +57,36 @@
 
     <main class="Textos px-5 py-5">
         <h1 class="h1Main">Astron, sumergete en dulzura.</h1>
-        <p class="pMain">¡Descubre la exelencia en cada taza! En nuestro cafe, encontrara una mezcla unica de granos cuidadosamente seleccionados de todo el mundo tostados a la perfeccion para brindarte una experiencia de sabor inigualable. Cada sorbo es una celebracion de calidad y el aroma que solo el mejor cafe puede ofrecer.</p>
+        <p class="pMain">¡Descubre la exelencia en cada taza! En nuestro cafe, encontrara una mezcla unica de granos
+            cuidadosamente seleccionados de todo el mundo tostados a la perfeccion para brindarte una experiencia de
+            sabor inigualable. Cada sorbo es una celebracion de calidad y el aroma que solo el mejor cafe puede ofrecer.
+        </p>
         <button class="botonMain">Visitar</button>
     </main>
 
-    <img class="imagenCafe" src="img/Cafe.jpg" alt="cafe" width="100%" height="1080px">
-
+    <div id="carouselExampleAutoplaying" class="carrusel mx-0 carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/Cafe.jpg" class="d-block w-100" alt="Granos de cafe">
+            </div>
+            <div class="carousel-item">
+                <img src="img/FotoMaquina.jpg" class="d-block w-100" alt="El cafe">
+            </div>
+            <div class="carousel-item">
+                <img src="img/fotoLocal.jpg" class="d-block w-100" alt="El local">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
 
 
