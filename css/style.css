@@ -2,8 +2,6 @@ body {
     margin: 0%;
     padding: 0%;
     background-color: rgb(255, 242, 225);
-    background-repeat: repeat-y;
-    background-size: cover;
     max-width: 100%;
 }
 header {
@@ -15,12 +13,14 @@ footer {
     border-top-left-radius: 3%;
     border-top-right-radius: 3%;
 }
+/* NAVBAR */
 .navbar {
     background-color: rgb(255, 242, 225);
     text-align: justify;
 }
+/* PRIMEROS TEXTOS Y TITULOS */
 .Textos {
-    background-color: bisque;
+    background-color: rgb(255, 228, 196);
 }
 .h2Main {
     margin-top: 7%;
@@ -50,16 +50,19 @@ footer {
     background-color: rgb(106, 186, 255);
     border-color: #333;
 }
+/* CARRUSEL DE IMAGENES */
 .imagenCafe {
     margin-left: 1%;
     margin-right: 5%;
     padding: 0%;
 }
+/* ROW */
 .row {
     width: 100%;
 }
+/* TEXTOS ACERCA DE QUIENES SOMOS */
 .divQuienesSomos {
-    background-color: bisque;
+    background-color: rgb(255, 228, 196);
 }
 .h2DivQuienes {
     margin-top: 7%;
@@ -74,8 +77,9 @@ footer {
     padding-bottom: 1%;
     font-size: 3dvh;
 }
+/* CARTAS DE SERVICIOS */
 .h2Servicios {
-    background-color: bisque;
+    background-color: rgb(255, 228, 196);
 }
 .h2Titulo {
     text-align: center;
@@ -85,15 +89,16 @@ footer {
     font-size: 3dvh;
 }
 .card-body {
-    background-color: bisque;
+    background-color: rgb(255, 228, 196);
 }
 .card {
     max-width: 30%;
     align-items: center;
     margin-left: 7%;
 }
+/* MAPA */
 .divMapa {
-    background-color: bisque;
+    background-color: rgb(255, 228, 196);
     margin: 0%;
     padding: 0%;
 }
@@ -105,8 +110,9 @@ footer {
     margin-top: 30%;
     margin-left: 10%;
 }
+/* TODO SOBRE EL CONTACTO */
 .divContacto {
-    background-color: bisque;
+    background-color: rgb(255, 228, 196);
     margin: 0%;
     padding: 0%;
 }
@@ -118,8 +124,50 @@ footer {
     margin-top: 15%;
     margin-bottom: 15%;
 }
+/* FOOTER */
 .divFooter {
     text-align: center;
     margin-top: 1%;
     margin-bottom: 1%;
+}
+
+/* SOBRE NOSOTROS HTML */
+
+/* Textos y imagenes del main */
+.pQuienesSomos {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    font-size: 120%;
+}
+.fondoTextos {
+    background-color: rgba(255, 228, 196, 0.562);
+}
+/* CAJAS DE IMAGENES */
+.container {
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1%;
+}
+.imgSNL {
+    border: #333 solid 5px;
+    border-radius: 40px;
+}
+.imgSND {
+    border: #333 solid 5px;
+    border-radius: 40px;
+}
+.bordeImagenes {
+    border-radius: 8%;
+    width: 35%;
+    height: 35%;
+}
+.textContL {
+    font-size: 115%;
+    padding: 5%;
+}
+.textContD {
+    font-size: 115%;
+    padding: 5%;
 }
