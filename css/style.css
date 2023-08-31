@@ -92,3 +92,14 @@ header {
     align-items: center;
     margin-left: 7%;
 }
+.divContacto {
+    background-color: rgb(255, 242, 225);
+}
+.textosContacto {
+    margin-top: 10%;
+}
+.formMarg {
+    padding: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
