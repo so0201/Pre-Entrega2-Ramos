@@ -1,7 +1,7 @@
 body {
     margin: 0%;
     padding: 0%;
-    background-image: url(../img/fondo.webp);
+    background-color: rgb(255, 242, 225);
     background-repeat: repeat-y;
     background-size: cover;
     max-width: 100%;
@@ -9,11 +9,6 @@ body {
 header {
     background-color: rgb(255, 242, 225);
     color: black;
-    border-top: 3px solid rgba(255, 228, 196, 0);
-    border-left: 3px solid rgba(255, 228, 196, 0);
-    border-right: 3px solid rgba(255, 228, 196, 0);
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
 }
 .navbar {
     background-color: rgb(255, 242, 225);
@@ -59,7 +54,7 @@ header {
     width: 100%;
 }
 .divQuienesSomos {
-    background-color: rgb(255, 242, 225);
+    background-color: bisque;
 }
 .h2DivQuienes {
     margin-top: 7%;
@@ -75,7 +70,7 @@ header {
     font-size: 3dvh;
 }
 .h2Servicios {
-    background-color: rgb(255, 242, 225);
+    background-color: bisque;
 }
 .h2Titulo {
     text-align: center;
@@ -85,21 +80,36 @@ header {
     font-size: 3dvh;
 }
 .card-body {
-    background-color: rgb(255, 242, 225);
+    background-color: bisque;
 }
 .card {
     max-width: 30%;
     align-items: center;
     margin-left: 7%;
 }
+.divMapa {
+    background-color: bisque;
+    margin: 0%;
+    padding: 0%;
+}
+.mapa {
+    margin-top: 30%;
+    margin-bottom: 5%;
+}
+.textoMapa {
+    margin-top: 50%;
+    margin-left: 10%;
+}
 .divContacto {
-    background-color: rgb(255, 242, 225);
+    background-color: bisque;
+    margin: 0%;
+    padding: 0%;
 }
 .textosContacto {
-    margin-top: 10%;
+    margin-top: 12%;
 }
 .formMarg {
     padding: 10%;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 15%;
+    margin-bottom: 15%;
 }
