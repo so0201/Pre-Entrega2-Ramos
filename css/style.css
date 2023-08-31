@@ -10,6 +10,11 @@ header {
     background-color: rgb(255, 242, 225);
     color: black;
 }
+footer {
+    border-top: #333 solid 10px;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+}
 .navbar {
     background-color: rgb(255, 242, 225);
     text-align: justify;
@@ -97,7 +102,7 @@ header {
     margin-bottom: 5%;
 }
 .textoMapa {
-    margin-top: 50%;
+    margin-top: 30%;
     margin-left: 10%;
 }
 .divContacto {
@@ -112,4 +117,9 @@ header {
     padding: 10%;
     margin-top: 15%;
     margin-bottom: 15%;
+}
+.divFooter {
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
