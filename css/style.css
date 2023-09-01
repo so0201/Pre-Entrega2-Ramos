@@ -144,11 +144,13 @@ footer {
     background-color: rgba(255, 228, 196, 0.562);
 }
 /* CAJAS DE IMAGENES */
-.container {
+.contenedor {
     padding: 0%;
     display: flex;
     align-items: center;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .imgSNL {
     border: #333 solid 5px;
@@ -164,10 +166,10 @@ footer {
     height: 35%;
 }
 .textContL {
-    font-size: 115%;
+    font-size: 125%;
     padding: 5%;
 }
 .textContD {
-    font-size: 115%;
+    font-size: 125%;
     padding: 5%;
 }
