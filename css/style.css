@@ -96,34 +96,6 @@ footer {
     align-items: center;
     margin-left: 7%;
 }
-/* MAPA */
-.divMapa {
-    background-color: rgb(255, 228, 196);
-    margin: 0%;
-    padding: 0%;
-}
-.mapa {
-    margin-top: 30%;
-    margin-bottom: 5%;
-}
-.textoMapa {
-    margin-top: 30%;
-    margin-left: 10%;
-}
-/* TODO SOBRE EL CONTACTO */
-.divContacto {
-    background-color: rgb(255, 228, 196);
-    margin: 0%;
-    padding: 0%;
-}
-.textosContacto {
-    margin-top: 12%;
-}
-.formMarg {
-    padding: 10%;
-    margin-top: 15%;
-    margin-bottom: 15%;
-}
 /* FOOTER */
 .divFooter {
     text-align: center;
@@ -194,4 +166,40 @@ footer {
     color: #ffffff;
     background-color: #333;
     border: #333;
+}
+/* UBICACION */
+.pLocales {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    font-size: 120%;
+}
+.map-right {
+    margin-left: 30%;
+}
+.map-left {
+    margin-left: 15%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.bg-maps {
+    border-radius: 3%;
+    background-color: rgb(255, 228, 196);
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+/* CONTACTO DEL INDEX Y DEL HTML */
+.divContacto {
+    background-color: rgb(255, 228, 196);
+    border-radius: 100px;
+    margin: 0%;
+    padding: 5%;
+}
+.textosContacto {
+    margin-top: 12%;
+}
+.formMarg {
+    padding: 10%;
+    margin-top: 15%;
+    margin-bottom: 15%;
 }
